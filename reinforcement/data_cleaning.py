@@ -9,20 +9,26 @@ def clean_auction():
     """
     user = {}
     item = {}
+    auctionid_mapping={}  # map auction id
     item_order = {}  # the dict used to sort
     with open('../resources/data/auction.csv') as f:
         f_csv = csv.DictReader(f)
         for row in f_csv:
+            # map
+            auctionid=row['auctionid']
+            if auctionid not in auctionid_mapping:
+              auctionid_mapping[auctionid]=len(auctionid_mapping)
+
+            id=auctionid_mapping[auctionid]
             # store the item: id, time, price, item name
-            if row['auctionid'] not in item:
-                id = row['auctionid']
+            if auctionid not in item:
                 item[id] = {}
-                item[id]['id'] = row['auctionid']
+                item[id]['id'] = id
                 item[id]['time'] = float(row['bidtime'])
                 item[id]['price'] = float(row['price'])
                 item[id]['name'] = row['item']
 
-                item_order[row['auctionid']] = float(row['price'])
+                item_order[id] = float(row['price'])
 
             # store the user: price, time, item name
             if row['bidder'] not in user:
@@ -38,11 +44,11 @@ def clean_auction():
             user[row['bidder']][index]['name'] = row['item']
 
     # write the item into file
-    item_file = open("../resources/data/clean_data/item.txt", 'w')
+    item_file = open("../resources/data/clean_data_1/item.txt", 'w')
     item_ordered = sorted(item_order.items(), key=lambda items: items[1], reverse=True)
     for v, d in item_ordered:
         item_file.write(
-            item[v]['id'] + '\t' + str(item[v]['time']) + '\t' + str(item[v]['price']) + '\t' + item[v]['name'] + '\n')
+            str(item[v]['id']) + '\t' + str(item[v]['time']) + '\t' + str(item[v]['price']) + '\t' + item[v]['name'] + '\n')
     item_file.close()
 
     # write the user file
@@ -55,7 +61,7 @@ def clean_auction():
 
         user_ordered = sorted(user_order.items(), key=lambda items: items[1], reverse=True)
         bidder = v
-        file_name = "../resources/data/clean_data/user/" + bidder + '_' + str(len(user[v])) + ".txt"
+        file_name = "../resources/data/clean_data_1/user/" + bidder + '_' + str(len(user[v])) + ".txt"
         f = open(file_name, 'w')
         for index, d in user_ordered:
             f.write(str(user[v][index]['price']) + '\t' + str(user[v][index]['time']) + '\t' + user[v][index][
@@ -71,18 +77,26 @@ def clean_set():
     user={}
     item={}
     item_order={}  # used to sort the item by avg price
+    category_mapping={}  # map category id to index start from 0
     with open(file_prefix+"TrainingSet.csv") as f:
         f_csv = csv.DictReader(f)
         for row in f_csv:
             price=float(row['Price'])
-            category=row['Category']  # the category of item
+            category_id=row['Category']  # the category of item
             person_id=row['PersonID']
             avg_price=float(row['AvgPrice'])
+            med_price=float(row['AuctionMedianPrice'])
+
+            # mapping
+            if category_id not in category_mapping:
+                category_mapping[category_id]=len(category_mapping)
+            category=category_mapping[category_id]
 
             # store the price of item
             if category not in item:
                 item[category]={}
                 item[category]['avg']=avg_price
+                item[category]['med']=med_price
                 item[category]['prices']=[]
                 item_order[category]=avg_price
             item[category]['prices'].append(price)
@@ -99,6 +113,7 @@ def clean_set():
                 user[person_id][category]={}
                 user[person_id][category]['price']=price
                 user[person_id][category]['avg']=avg_price
+                user[person_id][category]['med']=med_price
                 user[person_id][category]['log']=[]
             user[person_id][category]['log'].append(price)
 
@@ -106,28 +121,29 @@ def clean_set():
     write_file_prefix=file_prefix+"clean_data_2/"
     item_file=open(write_file_prefix+"item.txt",'w')
     # write item, sorted by avg price
-    # format: category, avg price, history price(a list)
+    # format: category, avg price, med price, history price(a list)
     item_ordered=sorted(item_order.items(), key=lambda items: items[1], reverse=True)
     for v,k in item_ordered:
-        item_file.write(str(v)+'\t'+str(k))
+        item_file.write(str(v)+'\t'+str(k)+'\t'+str(item[v]['med']))
         for p in item[v]['prices']:
             item_file.write('\t'+str(p))
         item_file.write('\n')
     item_file.close()
 
     # write history of user
-    # format: category, max price, avg price, history price(a list)
+    # format: category, max price, avg price, med price, history price(a list)
     user_file_prefix=write_file_prefix+"/user/"
     for id in user:
         size=len(user[id])
         user_name=id+"_"+str(size)+".txt"
         user_file=open(user_file_prefix+user_name,'w')
         for category in user[id]:
-            user_file.write(category+'\t'+str(user[id][category]['price'])+'\t'+str(user[id][category]['avg']))
+            user_file.write(str(category)+'\t'+str(user[id][category]['price'])+'\t'+str(user[id][category]['avg'])+'\t')
+            user_file.write(str(user[id][category]['med']))
             for p in user[id][category]['log']:
                 user_file.write('\t'+str(p))
             user_file.write('\n')
         user_file.close()
 
 if __name__ == '__main__':
-    clean_set()
+    clean_auction()
