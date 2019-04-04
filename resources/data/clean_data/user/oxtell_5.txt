@@ -1,0 +1,5 @@
+25	4.284769	Xbox game console
+22	4.284606	Xbox game console
+21	4.284375	Xbox game console
+25	2.239271	Xbox game console
+20	1.123183	Xbox game console

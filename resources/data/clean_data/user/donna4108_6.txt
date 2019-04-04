@@ -1,0 +1,6 @@
+198	1.214051	Xbox game console
+190	1.21375	Xbox game console
+185	1.213438	Xbox game console
+180	1.212951	Xbox game console
+175	1.168252	Xbox game console
+165	1.167859	Xbox game console

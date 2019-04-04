@@ -1,0 +1,3 @@
+33	6.806806	Xbox game console
+30	6.174271	Xbox game console
+40	4.563877	Xbox game console

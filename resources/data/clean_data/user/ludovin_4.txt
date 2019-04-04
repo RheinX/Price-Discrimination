@@ -1,0 +1,4 @@
+60	4.561678	Xbox game console
+55	4.561505	Xbox game console
+50	4.561204	Xbox game console
+45	4.560949	Xbox game console

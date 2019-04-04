@@ -1,0 +1,5 @@
+1500	5.700740741	Cartier wristwatch
+1200	3.577048611	Cartier wristwatch
+1100	3.576863426	Cartier wristwatch
+1050	3.576678241	Cartier wristwatch
+999.99	2.756712963	Cartier wristwatch

@@ -1,0 +1,6 @@
+170	6.82044	Xbox game console
+160	6.819699	Xbox game console
+155	6.819525	Xbox game console
+150	6.819398	Xbox game console
+130	6.646701	Xbox game console
+110	6.503322	Xbox game console

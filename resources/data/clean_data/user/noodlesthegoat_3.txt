@@ -1,0 +1,3 @@
+99	0.964745	Cartier wristwatch
+155	0.855208	Cartier wristwatch
+125	0.631076	Cartier wristwatch

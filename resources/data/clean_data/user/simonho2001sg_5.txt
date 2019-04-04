@@ -1,0 +1,5 @@
+250	6.229722222	Cartier wristwatch
+210	5.472696759	Cartier wristwatch
+170	4.846852	Cartier wristwatch
+175	4.329409722	Cartier wristwatch
+120	4.329131944	Cartier wristwatch

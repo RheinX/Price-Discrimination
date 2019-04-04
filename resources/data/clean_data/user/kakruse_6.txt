@@ -1,0 +1,6 @@
+1225	2.915972	Cartier wristwatch
+1175	2.915706	Cartier wristwatch
+1100	2.915544	Cartier wristwatch
+725.87	1.702072	Cartier wristwatch
+525.65	1.700451	Cartier wristwatch
+404.34	1.70022	Cartier wristwatch

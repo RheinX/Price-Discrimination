@@ -1,0 +1,3 @@
+100	3.765498	Xbox game console
+92	3.74463	Xbox game console
+90	3.184653	Xbox game console

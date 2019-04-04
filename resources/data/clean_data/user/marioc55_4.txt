@@ -1,0 +1,4 @@
+49	1.847731	Xbox game console
+46	1.199051	Xbox game console
+42	1.198692	Xbox game console
+38	1.19816	Xbox game console

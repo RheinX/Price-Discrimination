@@ -1,0 +1,4 @@
+576	2.72244213	Cartier wristwatch
+251	2.721967593	Cartier wristwatch
+226	2.721319444	Cartier wristwatch
+201	2.721053241	Cartier wristwatch

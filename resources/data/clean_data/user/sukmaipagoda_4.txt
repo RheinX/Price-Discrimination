@@ -1,0 +1,4 @@
+70	6.569907	Xbox game console
+60	6.309907	Xbox game console
+50	6.309826	Xbox game console
+40	5.191493	Xbox game console

@@ -1,0 +1,3 @@
+150	1.78098	Palm Pilot M515 PDA
+150	0.95834	Palm Pilot M515 PDA
+50	0.16888	Palm Pilot M515 PDA

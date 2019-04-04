@@ -1,0 +1,4 @@
+32.01	2.385926	Xbox game console
+31	2.385764	Xbox game console
+28	2.385648	Xbox game console
+25	2.385382	Xbox game console

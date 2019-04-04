@@ -1,0 +1,3 @@
+325	6.990394	Xbox game console
+300	6.990255	Xbox game console
+275	6.990185	Xbox game console

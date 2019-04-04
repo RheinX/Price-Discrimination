@@ -1,0 +1,3 @@
+100	6.042454	Xbox game console
+95	6.042245	Xbox game console
+50	5.057569	Xbox game console

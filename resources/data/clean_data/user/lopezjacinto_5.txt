@@ -1,0 +1,5 @@
+100	4.788125	Xbox game console
+80	4.787998	Xbox game console
+78	4.78787	Xbox game console
+75	4.787743	Xbox game console
+71	4.787627	Xbox game console

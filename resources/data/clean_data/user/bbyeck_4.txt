@@ -1,0 +1,4 @@
+120	6.967234	Xbox game console
+110	6.967037	Xbox game console
+85	6.702535	Xbox game console
+75	6.702176	Xbox game console

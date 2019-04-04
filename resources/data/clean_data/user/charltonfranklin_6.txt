@@ -1,0 +1,6 @@
+21	0.192604	Xbox game console
+20	0.190382	Xbox game console
+15	0.190197	Xbox game console
+1	0.149016	Xbox game console
+0.2	0.148808	Xbox game console
+0.1	0.148565	Xbox game console

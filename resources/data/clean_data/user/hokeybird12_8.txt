@@ -1,0 +1,8 @@
+55	2.122905	Xbox game console
+50	2.122824	Xbox game console
+45	2.12272	Xbox game console
+40	2.122593	Xbox game console
+33.5	2.122477	Xbox game console
+31.5	0.143241	Xbox game console
+30	0.143044	Xbox game console
+25	0.142951	Xbox game console

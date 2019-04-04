@@ -1,0 +1,17 @@
+425	4.471887	Xbox game console
+400	2.565972	Xbox game console
+375	2.565856	Xbox game console
+350	1.806597	Xbox game console
+285	1.571782	Xbox game console
+275	1.571667	Xbox game console
+260	1.571539	Xbox game console
+250	1.571354	Xbox game console
+245	1.57059	Xbox game console
+239	1.570417	Xbox game console
+228	1.570266	Xbox game console
+222	1.570139	Xbox game console
+216	1.527442	Xbox game console
+210	1.518148	Xbox game console
+203	1.518009	Xbox game console
+160	0.811551	Xbox game console
+153	0.811042	Xbox game console

@@ -1,0 +1,4 @@
+60	4.256574	Xbox game console
+54	4.256354	Xbox game console
+50	1.23772	Xbox game console
+25	0.342523	Xbox game console

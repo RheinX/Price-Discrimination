@@ -1,0 +1,4 @@
+98	4.971609	Xbox game console
+95	4.641806	Xbox game console
+85	4.569144	Xbox game console
+75	4.569039	Xbox game console

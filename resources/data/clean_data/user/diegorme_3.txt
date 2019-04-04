@@ -1,0 +1,3 @@
+310	5.221388889	Cartier wristwatch
+50	3.653599537	Cartier wristwatch
+100	1.251979167	Cartier wristwatch

@@ -1,0 +1,4 @@
+444.44	4.058519	Cartier wristwatch
+345.67	3.073669	Cartier wristwatch
+333.33	3.073102	Cartier wristwatch
+888.88	3.070451	Cartier wristwatch

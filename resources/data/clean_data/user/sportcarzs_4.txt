@@ -1,0 +1,4 @@
+100	0.188993	Xbox game console
+87	0.188808	Xbox game console
+85	0.188484	Xbox game console
+80	0.188264	Xbox game console

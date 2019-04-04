@@ -1,0 +1,6 @@
+50	6.471748	Xbox game console
+45	6.47147	Xbox game console
+40	6.405231	Xbox game console
+50	2.635127	Xbox game console
+45	2.634907	Xbox game console
+40	2.63456	Xbox game console

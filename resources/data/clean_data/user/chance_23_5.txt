@@ -1,0 +1,5 @@
+20	4.848981	Xbox game console
+19	4.848854	Xbox game console
+17	4.8486	Xbox game console
+15	4.848495	Xbox game console
+12	4.848391	Xbox game console

@@ -1,0 +1,3 @@
+50	2.481134259	Cartier wristwatch
+25	2.480763889	Cartier wristwatch
+20	2.480289352	Cartier wristwatch

@@ -1,0 +1,5 @@
+130	2.858391	Xbox game console
+125	2.858044	Xbox game console
+120	2.857743	Xbox game console
+110	2.857465	Xbox game console
+100	2.857141	Xbox game console

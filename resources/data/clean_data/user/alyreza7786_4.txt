@@ -1,0 +1,4 @@
+127.5	2.999826	Xbox game console
+121.25	2.999051	Xbox game console
+111.53	2.998634	Xbox game console
+102.52	2.998484	Xbox game console

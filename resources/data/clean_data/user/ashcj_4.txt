@@ -1,0 +1,4 @@
+125	6.995324	Xbox game console
+125	6.993565	Xbox game console
+125	6.94088	Xbox game console
+76	6.940556	Xbox game console

@@ -1,0 +1,3 @@
+79.01	2.088021	Xbox game console
+65.01	0.122836	Xbox game console
+5.01	0.01287	Xbox game console

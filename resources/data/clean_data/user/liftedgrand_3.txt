@@ -1,0 +1,3 @@
+115	6.736053	Xbox game console
+105	6.002014	Xbox game console
+85	5.984213	Xbox game console

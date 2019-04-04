@@ -1,0 +1,4 @@
+117.5	2.855544	Xbox game console
+113	2.833877	Xbox game console
+110	2.833009	Xbox game console
+100	2.359537	Xbox game console

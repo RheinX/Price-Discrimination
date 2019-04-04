@@ -1,0 +1,6 @@
+35	1.505544	Xbox game console
+25	1.504745	Xbox game console
+24	1.504387	Xbox game console
+23	1.503831	Xbox game console
+22	1.503646	Xbox game console
+21	1.50353	Xbox game console

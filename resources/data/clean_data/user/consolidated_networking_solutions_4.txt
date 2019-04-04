@@ -1,0 +1,4 @@
+20	0.47544	Xbox game console
+15	0.475266	Xbox game console
+10	0.301146	Xbox game console
+5	0.300961	Xbox game console

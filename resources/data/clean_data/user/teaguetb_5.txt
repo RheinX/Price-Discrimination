@@ -1,0 +1,5 @@
+63	6.590428	Xbox game console
+60	6.590312	Xbox game console
+54	5.9361	Xbox game console
+52	5.935972	Xbox game console
+50	0.028588	Xbox game console

@@ -1,0 +1,7 @@
+1201	6.567523148	Cartier wristwatch
+1201	6.341226852	Cartier wristwatch
+1150	6.340127315	Cartier wristwatch
+1426	4.955417	Cartier wristwatch
+1325	4.870822	Cartier wristwatch
+1301	3.084201	Cartier wristwatch
+1200	3.063102	Cartier wristwatch

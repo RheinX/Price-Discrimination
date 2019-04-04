@@ -1,0 +1,4 @@
+12	0.91242	Palm Pilot M515 PDA
+1	0.58409	Palm Pilot M515 PDA
+1	0.50376	Palm Pilot M515 PDA
+3	0.34667	Palm Pilot M515 PDA

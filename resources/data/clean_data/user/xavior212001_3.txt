@@ -1,0 +1,3 @@
+50	6.706134	Xbox game console
+42	6.705949	Xbox game console
+40	1.50794	Xbox game console

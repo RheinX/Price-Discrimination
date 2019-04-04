@@ -1,0 +1,5 @@
+53	5.241944	Xbox game console
+20	4.317847	Xbox game console
+15	4.317697	Xbox game console
+13	4.317546	Xbox game console
+12	4.317384	Xbox game console

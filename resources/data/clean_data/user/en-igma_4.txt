@@ -1,0 +1,4 @@
+725	0.273854167	Cartier wristwatch
+575	0.273657407	Cartier wristwatch
+375	0.272731482	Cartier wristwatch
+275	0.272546296	Cartier wristwatch

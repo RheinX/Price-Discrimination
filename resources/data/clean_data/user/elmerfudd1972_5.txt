@@ -1,0 +1,5 @@
+265	6.999803	Xbox game console
+245	6.997025	Xbox game console
+230	6.996215	Xbox game console
+225	6.994907	Xbox game console
+210	6.994745	Xbox game console

@@ -1,0 +1,3 @@
+185	6.981343	Xbox game console
+160	6.975891	Xbox game console
+155	6.975752	Xbox game console

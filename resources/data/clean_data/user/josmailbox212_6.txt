@@ -1,0 +1,6 @@
+93	2.793507	Xbox game console
+89	2.79316	Xbox game console
+77.75	2.792627	Xbox game console
+70	2.792431	Xbox game console
+67.75	2.792257	Xbox game console
+64.5	2.792072	Xbox game console

@@ -1,0 +1,3 @@
+30	0.91169	Xbox game console
+27	0.911539	Xbox game console
+25	0.911366	Xbox game console

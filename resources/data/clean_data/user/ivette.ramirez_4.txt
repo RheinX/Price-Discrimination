@@ -1,0 +1,4 @@
+438	1.305243	Cartier wristwatch
+400	1.304213	Cartier wristwatch
+350	1.304016	Cartier wristwatch
+250	1.303785	Cartier wristwatch

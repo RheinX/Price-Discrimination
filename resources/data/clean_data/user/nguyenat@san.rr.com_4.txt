@@ -1,0 +1,4 @@
+3000	5.627719907	Cartier wristwatch
+2800	5.627604167	Cartier wristwatch
+2500	5.62744213	Cartier wristwatch
+2100	5.627303241	Cartier wristwatch

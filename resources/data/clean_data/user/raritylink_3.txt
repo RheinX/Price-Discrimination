@@ -1,0 +1,3 @@
+1600	4.751516204	Cartier wristwatch
+1200	1.441921296	Cartier wristwatch
+1100	1.441736111	Cartier wristwatch

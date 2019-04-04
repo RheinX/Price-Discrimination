@@ -1,0 +1,5 @@
+160	6.979699	Xbox game console
+150	6.979595	Xbox game console
+141	6.951192	Xbox game console
+140	6.942627	Xbox game console
+147.76	4.960174	Xbox game console

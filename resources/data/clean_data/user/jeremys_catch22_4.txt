@@ -1,0 +1,4 @@
+75	1.56219	Palm Pilot M515 PDA
+70	1.56205	Palm Pilot M515 PDA
+40	0.95251	Palm Pilot M515 PDA
+40	0.90097	Palm Pilot M515 PDA

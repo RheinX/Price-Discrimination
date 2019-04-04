@@ -1,0 +1,4 @@
+175	1.847731482	Cartier wristwatch
+160	1.847523148	Cartier wristwatch
+150	1.789583333	Cartier wristwatch
+100	1.789259259	Cartier wristwatch

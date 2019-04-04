@@ -1,0 +1,4 @@
+62	6.057488	Xbox game console
+60	6.057384	Xbox game console
+57	6.05728	Xbox game console
+51	5.983576	Xbox game console

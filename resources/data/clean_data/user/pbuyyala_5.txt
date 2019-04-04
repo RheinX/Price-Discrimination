@@ -1,0 +1,5 @@
+106	2.668102	Xbox game console
+95	2.659248	Xbox game console
+85	2.659016	Xbox game console
+78	2.658912	Xbox game console
+73	2.658796	Xbox game console

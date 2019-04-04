@@ -1,0 +1,3 @@
+831	6.999872685	Cartier wristwatch
+1000	0.523796296	Cartier wristwatch
+500	0.461631944	Cartier wristwatch

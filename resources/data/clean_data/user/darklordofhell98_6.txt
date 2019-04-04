@@ -1,0 +1,6 @@
+71	4.035255	Xbox game console
+19	3.332326	Xbox game console
+18	3.33103	Xbox game console
+17	3.330509	Xbox game console
+16	3.328032	Xbox game console
+1	2.124062	Xbox game console

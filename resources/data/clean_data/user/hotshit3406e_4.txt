@@ -1,0 +1,4 @@
+167.5	6.999907	Xbox game console
+167.5	6.999514	Xbox game console
+167.5	6.972639	Xbox game console
+150	6.933519	Xbox game console

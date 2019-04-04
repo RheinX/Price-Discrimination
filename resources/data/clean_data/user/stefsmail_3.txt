@@ -1,0 +1,3 @@
+70	3.622	Palm Pilot M515 PDA
+60	3.62191	Palm Pilot M515 PDA
+50	3.62163	Palm Pilot M515 PDA

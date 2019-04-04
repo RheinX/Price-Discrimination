@@ -1,0 +1,5 @@
+31	3.879213	Xbox game console
+30	3.877384	Xbox game console
+25	3.877176	Xbox game console
+20	3.876968	Xbox game console
+15	0.889618	Xbox game console

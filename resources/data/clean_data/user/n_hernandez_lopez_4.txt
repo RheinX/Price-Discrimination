@@ -1,0 +1,4 @@
+380	6.999873	Xbox game console
+360	6.999757	Xbox game console
+210	6.236713	Xbox game console
+205	6.236586	Xbox game console

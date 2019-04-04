@@ -1,0 +1,4 @@
+300	1.43537037	Cartier wristwatch
+230	1.435092593	Cartier wristwatch
+220	1.434699074	Cartier wristwatch
+203	1.434375	Cartier wristwatch

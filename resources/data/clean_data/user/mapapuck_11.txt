@@ -1,0 +1,11 @@
+70	5.271331	Xbox game console
+53	5.270995	Xbox game console
+70	5.213542	Xbox game console
+70	5.084514	Xbox game console
+85	5.041377	Xbox game console
+80	4.654676	Xbox game console
+80	4.383924	Xbox game console
+75	4.250671	Xbox game console
+85	1.062951	Xbox game console
+80	1.062616	Xbox game console
+90	0.212882	Xbox game console

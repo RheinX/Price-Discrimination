@@ -1,0 +1,7 @@
+92	6.926157	Xbox game console
+82	6.824444	Xbox game console
+75	6.619988	Xbox game console
+62	6.619792	Xbox game console
+80.08	6.548738	Xbox game console
+72.22	6.548056	Xbox game console
+85.85	0.693287	Xbox game console

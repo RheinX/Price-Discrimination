@@ -1,0 +1,4 @@
+107	6.996933	Xbox game console
+102	6.924363	Xbox game console
+102	4.926736	Xbox game console
+102	4.881736	Xbox game console

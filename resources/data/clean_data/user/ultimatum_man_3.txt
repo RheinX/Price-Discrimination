@@ -1,0 +1,3 @@
+152.5	2.999664	Xbox game console
+150	2.999572	Xbox game console
+145	2.999479	Xbox game console

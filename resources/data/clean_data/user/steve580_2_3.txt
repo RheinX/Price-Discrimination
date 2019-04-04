@@ -1,0 +1,3 @@
+88	4.86398	Palm Pilot M515 PDA
+85	4.86374	Palm Pilot M515 PDA
+12	0.21273	Palm Pilot M515 PDA

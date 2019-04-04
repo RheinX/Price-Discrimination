@@ -1,0 +1,7 @@
+99	6.59338	Xbox game console
+90	6.59272	Xbox game console
+69	5.645023	Xbox game console
+64	5.644722	Xbox game console
+15	2.099051	Xbox game console
+5	0.830012	Xbox game console
+3	0.829769	Xbox game console

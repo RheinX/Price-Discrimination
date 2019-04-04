@@ -1,0 +1,4 @@
+700	2.922013889	Cartier wristwatch
+1275	2.082835648	Cartier wristwatch
+1250	2.082511574	Cartier wristwatch
+1200	1.506747685	Cartier wristwatch

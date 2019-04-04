@@ -1,0 +1,7 @@
+60	6.999757	Xbox game console
+58	6.999618	Xbox game console
+55	6.999306	Xbox game console
+30	1.925208	Xbox game console
+21	1.924884	Xbox game console
+20	1.92441	Xbox game console
+16	1.924259	Xbox game console

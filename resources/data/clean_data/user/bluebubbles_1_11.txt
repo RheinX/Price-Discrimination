@@ -1,0 +1,11 @@
+22.01	1.018438	Xbox game console
+15	1.01838	Xbox game console
+10	1.018333	Xbox game console
+33.02	0.601701	Xbox game console
+30	0.601632	Xbox game console
+25	0.601574	Xbox game console
+26	0.249757	Xbox game console
+24	0.249653	Xbox game console
+22	0.24956	Xbox game console
+20	0.249491	Xbox game console
+1	0.011748	Xbox game console

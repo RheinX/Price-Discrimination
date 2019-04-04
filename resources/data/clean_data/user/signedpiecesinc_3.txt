@@ -1,0 +1,3 @@
+850	6.999513889	Cartier wristwatch
+800	6.993738426	Cartier wristwatch
+750	6.992916667	Cartier wristwatch

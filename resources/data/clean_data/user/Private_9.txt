@@ -1,0 +1,9 @@
+27	6.999931	Xbox game console
+28	6.989757	Xbox game console
+25	6.943333	Xbox game console
+25	6.857685	Xbox game console
+24	6.753611	Xbox game console
+22.72	6.738773	Xbox game console
+22	4.769815	Xbox game console
+15	4.769734	Xbox game console
+22.22	4.537535	Xbox game console

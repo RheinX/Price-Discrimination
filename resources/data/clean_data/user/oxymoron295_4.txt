@@ -1,0 +1,4 @@
+97	6.954514	Xbox game console
+89	6.824028	Xbox game console
+85	6.823924	Xbox game console
+93	6.80625	Xbox game console

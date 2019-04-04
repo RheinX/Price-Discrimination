@@ -1,0 +1,3 @@
+200	0.724468	Cartier wristwatch
+170	0.720301	Cartier wristwatch
+156	0.720174	Cartier wristwatch

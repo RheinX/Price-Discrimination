@@ -1,0 +1,3 @@
+13.37	1.951701	Xbox game console
+11	1.951273	Xbox game console
+10	0.682731	Xbox game console

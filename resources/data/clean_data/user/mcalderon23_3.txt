@@ -1,0 +1,3 @@
+115	6.968414	Xbox game console
+99	6.968218	Xbox game console
+95	6.968137	Xbox game console

@@ -1,0 +1,3 @@
+125	0.64674	Palm Pilot M515 PDA
+100	0.64628	Palm Pilot M515 PDA
+85	0.64553	Palm Pilot M515 PDA

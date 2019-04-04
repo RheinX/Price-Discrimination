@@ -1,0 +1,5 @@
+155	6.691747685	Cartier wristwatch
+105	6.318599537	Cartier wristwatch
+100	6.268391204	Cartier wristwatch
+89.99	6.265497685	Cartier wristwatch
+87.99	6.264699074	Cartier wristwatch

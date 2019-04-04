@@ -1,0 +1,5 @@
+32	6.663356	Xbox game console
+30	6.662963	Xbox game console
+25	6.662465	Xbox game console
+20	6.66228	Xbox game console
+10	3.554352	Xbox game console

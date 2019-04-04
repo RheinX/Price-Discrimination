@@ -1,0 +1,2 @@
+50	0.45384	Palm Pilot M515 PDA
+40	0.29706	Palm Pilot M515 PDA

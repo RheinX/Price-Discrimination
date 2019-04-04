@@ -1,0 +1,7 @@
+165.99	6.532685185	Cartier wristwatch
+145.99	6.532141204	Cartier wristwatch
+125.99	6.531840278	Cartier wristwatch
+85.99	5.954513889	Cartier wristwatch
+75.99	5.95400463	Cartier wristwatch
+42.99	5.009791667	Cartier wristwatch
+25.99	0.287395833	Cartier wristwatch

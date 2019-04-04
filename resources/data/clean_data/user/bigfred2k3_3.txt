@@ -1,0 +1,3 @@
+110	5.68214	Palm Pilot M515 PDA
+100	5.68198	Palm Pilot M515 PDA
+80	3.00329	Palm Pilot M515 PDA

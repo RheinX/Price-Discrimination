@@ -1,0 +1,3 @@
+110	6.984699	Xbox game console
+120	6.817859	Xbox game console
+120	6.790312	Xbox game console

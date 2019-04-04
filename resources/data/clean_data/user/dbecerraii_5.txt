@@ -1,0 +1,5 @@
+125	6.998206	Xbox game console
+110	6.997847	Xbox game console
+100	6.997546	Xbox game console
+97	6.997396	Xbox game console
+95	6.997187	Xbox game console

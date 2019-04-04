@@ -1,0 +1,4 @@
+72	5.987141	Xbox game console
+69	5.987002	Xbox game console
+65	5.98684	Xbox game console
+60	5.9464	Xbox game console

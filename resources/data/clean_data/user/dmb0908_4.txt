@@ -1,0 +1,4 @@
+100	6.737199	Xbox game console
+100	6.655023	Xbox game console
+90	6.654907	Xbox game console
+80	6.526146	Xbox game console

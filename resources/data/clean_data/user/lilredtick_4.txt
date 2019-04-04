@@ -1,0 +1,4 @@
+80.99	6.695301	Xbox game console
+65.99	6.695127	Xbox game console
+60.99	6.694931	Xbox game console
+50.99	6.42728	Xbox game console

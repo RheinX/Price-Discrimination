@@ -1,0 +1,2 @@
+30	0.456563	Cartier wristwatch
+25	0.456273	Cartier wristwatch

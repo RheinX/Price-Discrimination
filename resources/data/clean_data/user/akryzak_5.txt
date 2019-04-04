@@ -1,0 +1,5 @@
+355	2.296134	Cartier wristwatch
+350	2.295891	Cartier wristwatch
+325	2.295208	Cartier wristwatch
+20	0.167743056	Cartier wristwatch
+20	0.109918982	Cartier wristwatch

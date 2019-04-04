@@ -1,0 +1,3 @@
+1100	4.687141204	Cartier wristwatch
+1000	3.770659722	Cartier wristwatch
+1000	3.733784722	Cartier wristwatch

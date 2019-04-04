@@ -1,0 +1,5 @@
+55	2.899931	Xbox game console
+50	2.899722	Xbox game console
+40	2.8861	Xbox game console
+35	2.88581	Xbox game console
+20	1.208113	Xbox game console

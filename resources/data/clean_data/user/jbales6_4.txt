@@ -1,0 +1,4 @@
+70	6.993623	Xbox game console
+65	6.993414	Xbox game console
+61.5	6.993275	Xbox game console
+58.5	6.993102	Xbox game console

@@ -1,0 +1,6 @@
+490	6.99912037	Cartier wristwatch
+480	6.998993056	Cartier wristwatch
+465	6.998680556	Cartier wristwatch
+280	6.750231482	Cartier wristwatch
+270	6.750034722	Cartier wristwatch
+260	6.749803241	Cartier wristwatch

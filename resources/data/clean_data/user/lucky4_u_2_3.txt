@@ -1,0 +1,3 @@
+80	6.216343	Xbox game console
+75	6.216111	Xbox game console
+60	5.607975	Xbox game console

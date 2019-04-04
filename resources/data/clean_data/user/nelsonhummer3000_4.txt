@@ -1,0 +1,4 @@
+61.5	2.546736	Xbox game console
+55.11	2.546134	Xbox game console
+63	2.001285	Xbox game console
+60.11	1.981551	Xbox game console

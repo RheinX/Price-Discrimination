@@ -1,0 +1,3 @@
+196.5	4.24184	Palm Pilot M515 PDA
+170	3.17444	Palm Pilot M515 PDA
+99	0.37412	Palm Pilot M515 PDA

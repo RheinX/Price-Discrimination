@@ -1,0 +1,7 @@
+40	3.176632	Xbox game console
+30	3.175382	Xbox game console
+25	2.437211	Xbox game console
+20	2.436644	Xbox game console
+18	2.436424	Xbox game console
+15	2.436134	Xbox game console
+11	0.761713	Xbox game console

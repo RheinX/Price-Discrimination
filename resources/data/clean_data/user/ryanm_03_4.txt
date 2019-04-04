@@ -1,0 +1,4 @@
+110	6.998229	Xbox game console
+105	6.99809	Xbox game console
+100	6.997998	Xbox game console
+98	6.997847	Xbox game console

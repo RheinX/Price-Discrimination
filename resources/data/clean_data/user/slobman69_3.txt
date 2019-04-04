@@ -1,0 +1,3 @@
+60	1.622824	Xbox game console
+60	1.582049	Xbox game console
+31	1.492153	Xbox game console

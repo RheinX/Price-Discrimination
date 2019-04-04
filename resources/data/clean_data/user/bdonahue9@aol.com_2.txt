@@ -1,0 +1,2 @@
+100	0.328888889	Cartier wristwatch
+50	0.328599537	Cartier wristwatch

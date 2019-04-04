@@ -1,0 +1,3 @@
+80	6.032662	Xbox game console
+55	6.032488	Xbox game console
+50	6.032222	Xbox game console

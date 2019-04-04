@@ -1,0 +1,3 @@
+95	2.988507	Xbox game console
+90	2.988345	Xbox game console
+85	2.98816	Xbox game console

@@ -1,0 +1,15 @@
+99	5.56978	Xbox game console
+96	5.569664	Xbox game console
+94	5.56956	Xbox game console
+92	5.569468	Xbox game console
+90	5.569398	Xbox game console
+74	4.491447	Xbox game console
+65	4.49125	Xbox game console
+60	4.491181	Xbox game console
+55	1.781725	Xbox game console
+50	1.781655	Xbox game console
+45	1.781574	Xbox game console
+42	1.781516	Xbox game console
+40	0.783623	Xbox game console
+35	0.783542	Xbox game console
+5	0.000567	Xbox game console

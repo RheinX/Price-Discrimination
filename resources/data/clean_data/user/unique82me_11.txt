@@ -1,0 +1,11 @@
+165	6.981528	Xbox game console
+160	6.981389	Xbox game console
+130	6.9789	Xbox game console
+120	6.978796	Xbox game console
+115	6.978634	Xbox game console
+130	2.99316	Xbox game console
+125	2.989468	Xbox game console
+120	2.989387	Xbox game console
+115	2.989317	Xbox game console
+110	2.989178	Xbox game console
+105	2.989051	Xbox game console

@@ -1,0 +1,9 @@
+105	6.993542	Xbox game console
+82.5	5.828449	Xbox game console
+105.75	4.031076	Xbox game console
+55	3.797164	Xbox game console
+25.75	3.36669	Xbox game console
+37.5	3.31978	Xbox game console
+25.75	2.968669	Xbox game console
+50	1.676829	Xbox game console
+75.75	0.242211	Xbox game console

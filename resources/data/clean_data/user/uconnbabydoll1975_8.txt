@@ -1,0 +1,8 @@
+133	2.965336	Xbox game console
+130	2.965162	Xbox game console
+152	2.919757	Xbox game console
+146	2.918681	Xbox game console
+140	2.916447	Xbox game console
+131	2.916308	Xbox game console
+85	2.76412	Xbox game console
+83	2.763889	Xbox game console

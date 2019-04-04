@@ -1,0 +1,4 @@
+82	2.814722	Xbox game console
+75	2.814363	Xbox game console
+70	2.814294	Xbox game console
+67	2.814178	Xbox game console

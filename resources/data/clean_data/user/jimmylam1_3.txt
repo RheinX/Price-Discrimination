@@ -1,0 +1,3 @@
+212.5	4.9889	Palm Pilot M515 PDA
+210	4.98877	Palm Pilot M515 PDA
+205	4.98866	Palm Pilot M515 PDA

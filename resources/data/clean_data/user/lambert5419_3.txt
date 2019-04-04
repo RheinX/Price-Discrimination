@@ -1,0 +1,3 @@
+53	6.437894	Xbox game console
+50	6.437639	Xbox game console
+40	5.513229	Xbox game console

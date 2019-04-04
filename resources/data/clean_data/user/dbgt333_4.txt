@@ -1,0 +1,4 @@
+12	1.041192	Xbox game console
+10	1.040995	Xbox game console
+3	1.040799	Xbox game console
+1.04	1.040405	Xbox game console

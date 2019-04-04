@@ -1,0 +1,7 @@
+301	6.999687	Xbox game console
+285	6.99941	Xbox game console
+268	6.99897	Xbox game console
+243	6.979468	Xbox game console
+238	6.979259	Xbox game console
+225	6.904919	Xbox game console
+218	6.904745	Xbox game console

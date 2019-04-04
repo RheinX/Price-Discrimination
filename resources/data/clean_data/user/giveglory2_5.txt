@@ -1,0 +1,5 @@
+1.25	0.194005	Xbox game console
+0.99	0.193472	Xbox game console
+0.21	0.192813	Xbox game console
+0.11	0.1925	Xbox game console
+0.01	0.185104	Xbox game console

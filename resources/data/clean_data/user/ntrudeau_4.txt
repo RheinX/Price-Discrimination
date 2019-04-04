@@ -1,0 +1,4 @@
+200	4.999977	Cartier wristwatch
+195	4.999769	Cartier wristwatch
+190	4.997292	Cartier wristwatch
+180	4.996898	Cartier wristwatch

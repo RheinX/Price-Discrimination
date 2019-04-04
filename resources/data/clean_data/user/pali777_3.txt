@@ -1,0 +1,3 @@
+48	3.18942	Palm Pilot M515 PDA
+52.5	2.10383	Palm Pilot M515 PDA
+66	0.39014	Palm Pilot M515 PDA

@@ -1,0 +1,10 @@
+245	6.998206	Xbox game console
+240	6.997998	Xbox game console
+230	6.997419	Xbox game console
+220	6.997037	Xbox game console
+200	6.990694	Xbox game console
+190	6.925116	Xbox game console
+120	6.924676	Xbox game console
+110	6.923727	Xbox game console
+180	6.870845	Xbox game console
+125	6.549028	Xbox game console

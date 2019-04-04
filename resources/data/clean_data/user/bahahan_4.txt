@@ -1,0 +1,4 @@
+85	6.090868	Xbox game console
+80	6.090648	Xbox game console
+77	6.090405	Xbox game console
+75	0.964595	Xbox game console

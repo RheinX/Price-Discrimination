@@ -1,0 +1,5 @@
+90	4.901887	Xbox game console
+113.5	2.992002	Xbox game console
+110	2.991875	Xbox game console
+105	2.991725	Xbox game console
+100	1.848924	Xbox game console

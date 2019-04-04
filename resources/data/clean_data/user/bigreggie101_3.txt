@@ -1,0 +1,3 @@
+70	1.740185	Xbox game console
+40	1.739826	Xbox game console
+30	1.739572	Xbox game console

@@ -1,0 +1,9 @@
+80.99	4.15794	Xbox game console
+77.99	4.157789	Xbox game console
+75	4.15456	Xbox game console
+73	4.154433	Xbox game console
+71	4.154282	Xbox game console
+69	4.154016	Xbox game console
+67	4.153924	Xbox game console
+65	4.153831	Xbox game console
+63	4.153738	Xbox game console

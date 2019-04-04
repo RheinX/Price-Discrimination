@@ -1,0 +1,3 @@
+93	5.88444	Palm Pilot M515 PDA
+91	5.88414	Palm Pilot M515 PDA
+90	5.88397	Palm Pilot M515 PDA

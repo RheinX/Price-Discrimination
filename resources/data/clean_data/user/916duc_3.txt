@@ -1,0 +1,3 @@
+40.45	4.877465	Cartier wristwatch
+35	4.861759	Cartier wristwatch
+33	4.861435	Cartier wristwatch

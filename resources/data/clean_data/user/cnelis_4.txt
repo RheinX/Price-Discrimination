@@ -1,0 +1,4 @@
+500	1.202175926	Cartier wristwatch
+300	0.945451389	Cartier wristwatch
+300	0.94099537	Cartier wristwatch
+400	0.919826389	Cartier wristwatch

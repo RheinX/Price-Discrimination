@@ -1,0 +1,4 @@
+92	6.001528	Xbox game console
+90	6.001377	Xbox game console
+87	6.001273	Xbox game console
+70	2.174097	Xbox game console

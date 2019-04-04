@@ -1,0 +1,7 @@
+90	6.643044	Xbox game console
+86	6.517986	Xbox game console
+71	6.517384	Xbox game console
+70	6.517257	Xbox game console
+66	6.517153	Xbox game console
+64	6.517002	Xbox game console
+62	6.516898	Xbox game console

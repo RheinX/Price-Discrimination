@@ -1,0 +1,4 @@
+60	5.283137	Xbox game console
+55	5.282894	Xbox game console
+50	3.271076	Xbox game console
+40	0.9864	Xbox game console

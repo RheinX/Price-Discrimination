@@ -1,0 +1,3 @@
+80	2.869074	Xbox game console
+70	2.868773	Xbox game console
+60	2.868067	Xbox game console

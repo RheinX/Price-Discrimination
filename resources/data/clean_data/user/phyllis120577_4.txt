@@ -1,0 +1,4 @@
+25	2.006806	Cartier wristwatch
+21	2.006447	Cartier wristwatch
+20	1.983484	Cartier wristwatch
+11	1.973449	Cartier wristwatch

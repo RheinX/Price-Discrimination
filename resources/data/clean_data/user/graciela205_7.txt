@@ -1,0 +1,7 @@
+101	4.898681	Xbox game console
+98	4.898565	Xbox game console
+96	4.898449	Xbox game console
+94	4.898333	Xbox game console
+92	4.898218	Xbox game console
+90	4.89809	Xbox game console
+88	4.897917	Xbox game console

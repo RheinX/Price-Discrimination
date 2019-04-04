@@ -1,0 +1,6 @@
+31	6.996285	Xbox game console
+31	6.99478	Xbox game console
+28.99	6.994421	Xbox game console
+25.99	6.994282	Xbox game console
+22.88	6.994074	Xbox game console
+21.64	6.082396	Xbox game console

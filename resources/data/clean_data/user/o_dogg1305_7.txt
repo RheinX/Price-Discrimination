@@ -1,0 +1,7 @@
+55	4.190243	Xbox game console
+50	4.189965	Xbox game console
+47	4.189826	Xbox game console
+78	2.1875	Xbox game console
+75.5	2.187164	Xbox game console
+72	2.18691	Xbox game console
+60.1	1.796019	Xbox game console

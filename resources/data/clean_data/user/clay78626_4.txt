@@ -1,0 +1,4 @@
+20	0.934988	Xbox game console
+11	0.93485	Xbox game console
+10	0.934711	Xbox game console
+7	0.868819	Xbox game console

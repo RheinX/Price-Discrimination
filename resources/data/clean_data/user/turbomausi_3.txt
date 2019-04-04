@@ -1,0 +1,3 @@
+420	0.911539352	Cartier wristwatch
+3.5	0.191886574	Cartier wristwatch
+1.25	0.141863426	Cartier wristwatch

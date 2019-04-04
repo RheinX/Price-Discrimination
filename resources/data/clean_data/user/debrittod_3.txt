@@ -1,0 +1,3 @@
+202.5	6.796203704	Cartier wristwatch
+200	6.795844907	Cartier wristwatch
+150	6.795428241	Cartier wristwatch

@@ -1,0 +1,2 @@
+600	0.621585648	Cartier wristwatch
+500	0.618865741	Cartier wristwatch

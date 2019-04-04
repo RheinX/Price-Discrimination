@@ -1,0 +1,3 @@
+40	5.663495	Xbox game console
+20	1.518981	Xbox game console
+24.99	0.488009	Xbox game console

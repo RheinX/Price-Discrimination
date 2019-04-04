@@ -1,0 +1,5 @@
+400	6.993519	Xbox game console
+360	6.99059	Xbox game console
+300	6.980741	Xbox game console
+280	6.975822	Xbox game console
+255	6.971065	Xbox game console

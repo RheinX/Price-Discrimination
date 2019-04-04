@@ -1,0 +1,4 @@
+110	4.117894	Xbox game console
+105	4.11765	Xbox game console
+21	2.273796	Xbox game console
+60	2.079444	Xbox game console

@@ -1,0 +1,4 @@
+97	4.985405	Xbox game console
+95	4.985313	Xbox game console
+90	4.98191	Xbox game console
+170	4.187963	Xbox game console

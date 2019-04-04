@@ -1,0 +1,4 @@
+127.5	2.998831	Xbox game console
+127.5	2.975312	Xbox game console
+124	2.813553	Xbox game console
+120	2.813437	Xbox game console

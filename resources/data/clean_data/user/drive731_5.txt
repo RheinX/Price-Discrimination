@@ -1,0 +1,5 @@
+10	2.035637	Xbox game console
+60	0.920278	Xbox game console
+45	0.920185	Xbox game console
+40	0.920058	Xbox game console
+5	0.025139	Xbox game console

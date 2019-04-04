@@ -1,0 +1,4 @@
+80	4.64625	Xbox game console
+75	4.646111	Xbox game console
+70	4.645868	Xbox game console
+11	3.654306	Xbox game console

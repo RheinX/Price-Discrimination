@@ -1,0 +1,9 @@
+205	4.560347	Xbox game console
+200	2.117338	Xbox game console
+195	2.117141	Xbox game console
+190	2.116505	Xbox game console
+185	2.116343	Xbox game console
+180	2.11625	Xbox game console
+175	2.116076	Xbox game console
+170	2.115856	Xbox game console
+165	2.115683	Xbox game console

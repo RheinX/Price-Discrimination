@@ -1,0 +1,6 @@
+32	4.749838	Xbox game console
+30	4.749699	Xbox game console
+20	4.749641	Xbox game console
+50	0.776377	Xbox game console
+45	0.776296	Xbox game console
+41	0.776227	Xbox game console

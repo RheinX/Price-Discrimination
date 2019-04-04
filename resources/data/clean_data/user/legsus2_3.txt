@@ -1,0 +1,3 @@
+35.47	5.92264	Palm Pilot M515 PDA
+22.26	3.97916	Palm Pilot M515 PDA
+10	3.72179	Palm Pilot M515 PDA

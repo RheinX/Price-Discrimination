@@ -1,0 +1,3 @@
+227.5	5.71277	Palm Pilot M515 PDA
+223.5	1.62125	Palm Pilot M515 PDA
+200	0.224	Palm Pilot M515 PDA

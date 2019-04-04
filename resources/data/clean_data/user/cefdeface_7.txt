@@ -1,0 +1,7 @@
+60	4.192454	Xbox game console
+35	2.566516	Xbox game console
+31	2.565833	Xbox game console
+29	2.56566	Xbox game console
+27	2.565544	Xbox game console
+25	2.565324	Xbox game console
+18	2.545104	Xbox game console

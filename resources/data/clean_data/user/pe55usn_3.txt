@@ -1,0 +1,3 @@
+80	6.959699	Xbox game console
+90	6.764792	Xbox game console
+85	6.746921	Xbox game console

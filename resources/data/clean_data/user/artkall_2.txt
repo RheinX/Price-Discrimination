@@ -1,0 +1,2 @@
+1000	0.620844907	Cartier wristwatch
+999	0.300196759	Cartier wristwatch

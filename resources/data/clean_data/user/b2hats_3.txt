@@ -1,0 +1,3 @@
+306	0.772256944	Cartier wristwatch
+300	0.771944444	Cartier wristwatch
+250	0.771655093	Cartier wristwatch

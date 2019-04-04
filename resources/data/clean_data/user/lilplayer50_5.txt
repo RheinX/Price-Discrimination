@@ -1,0 +1,5 @@
+49	0.301458	Xbox game console
+39	0.300313	Xbox game console
+25	0.300104	Xbox game console
+19	0.299907	Xbox game console
+15.99	0.299699	Xbox game console

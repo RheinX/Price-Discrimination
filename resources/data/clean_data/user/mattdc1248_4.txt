@@ -1,0 +1,4 @@
+85	2.686539	Xbox game console
+100	2.257778	Xbox game console
+75	2.255127	Xbox game console
+65	0.851377	Xbox game console

@@ -1,0 +1,4 @@
+840	3.795231482	Cartier wristwatch
+14	0.465497685	Cartier wristwatch
+10	0.465277778	Cartier wristwatch
+5	0.465069444	Cartier wristwatch

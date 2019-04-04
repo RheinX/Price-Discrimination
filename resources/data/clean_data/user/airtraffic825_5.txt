@@ -1,0 +1,5 @@
+165	2.169028	Xbox game console
+160	2.168854	Xbox game console
+155	2.168657	Xbox game console
+150	2.032234	Xbox game console
+100	2.028634	Xbox game console

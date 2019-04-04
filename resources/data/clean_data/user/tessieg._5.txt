@@ -1,0 +1,5 @@
+1500	4.400949074	Cartier wristwatch
+1530	1.623935185	Cartier wristwatch
+1500	1.142175926	Cartier wristwatch
+1223	1.14181713	Cartier wristwatch
+1123	1.141377315	Cartier wristwatch

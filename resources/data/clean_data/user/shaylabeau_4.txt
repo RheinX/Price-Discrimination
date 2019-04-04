@@ -1,0 +1,4 @@
+80	5.803634	Xbox game console
+60	5.733322	Xbox game console
+60	1.766563	Xbox game console
+50	1.766331	Xbox game console
