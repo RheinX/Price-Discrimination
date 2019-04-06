@@ -79,7 +79,7 @@ def clean_set():
     item_order={}  # used to sort the item by avg price
     category_mapping={}  # map category id to index start from 0
     user_mapping={}  # map user id to index start from 0
-    with open(file_prefix+"TrainingSet.csv") as f:
+    with open(file_prefix+"TestSet.csv") as f:
         f_csv = csv.DictReader(f)
         for row in f_csv:
             price=float(row['Price'])
@@ -123,7 +123,7 @@ def clean_set():
             user[person_id][category]['log'].append(price)
 
     # write the file
-    write_file_prefix=file_prefix+"clean_data_2/"
+    write_file_prefix=file_prefix+"test_data_2/"
     item_file=open(write_file_prefix+"item.txt",'w')
     # write item, sorted by avg price
     # format: category, avg price, med price, history price(a list)
