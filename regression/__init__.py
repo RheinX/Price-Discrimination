@@ -1,8 +1,15 @@
 import regression.l1_gsd as lgsd
 import regression.diferent_regression as df
 import matplotlib.pyplot as plt
+import regression.curve_fit as cf
+import error_handle as eh
 
-if __name__ == '__main__':
+def multiple_feature_regression():
+    """
+    # regression predict by using all data with different features
+    :return:
+    """
+
     # read the data
     dataMatrix, labelMatrix = lgsd.load_data("../resources/data/TrainingSet.csv")
     test_dataMatrix, test_labelMatrix = lgsd.load_data("../resources/data/TestSet.csv")
@@ -45,3 +52,23 @@ if __name__ == '__main__':
     plt.ylabel("Percentage of total")
     plt.scatter(plt_x, plt_y)
     plt.show()
+
+def one_dimension_fitting():
+    """
+    fit the curve which data is price of one user to one category item
+    :return:
+    """
+    error, right_rate=cf.linear_regression()
+    plt_x,plt_y=eh.plt_array(error,100)
+
+    print(right_rate)
+    plt.title("Predict in Linear Regression")
+    plt.xlabel("error with real value")
+    plt.ylabel("Percentage of total")
+    plt.scatter(plt_x, plt_y)
+    plt.show()
+
+if __name__ == '__main__':
+    # regression predict by using all data with different features
+    # multiple_feature_regression()
+    one_dimension_fitting()
