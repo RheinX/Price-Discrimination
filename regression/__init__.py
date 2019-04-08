@@ -39,7 +39,7 @@ def multiple_feature_regression():
 
     # ok
     print("BayesianRidge Start")
-    br_rate = df.BayesianRidge_regression(dataMatrix, labelMatrix, test_dataMatrix, test_labelMatrix)
+    br_rate ,rate= df.BayesianRidge_regression(dataMatrix, labelMatrix, test_dataMatrix, test_labelMatrix)
     plt_x = []
     plt_y = []
     for v in br_rate:
@@ -47,6 +47,7 @@ def multiple_feature_regression():
             plt_x.append(float(v))
             plt_y.append(round(float(br_rate[v]), 4))
 
+    print(rate)
     plt.title("Predict in BayesianRidge")
     plt.xlabel("error with real value")
     plt.ylabel("Percentage of total")
@@ -58,11 +59,11 @@ def one_dimension_fitting():
     fit the curve which data is price of one user to one category item
     :return:
     """
-    error, right_rate=cf.linear_regression()
+    error, right_rate=cf.polynomial_regression(3)
     plt_x,plt_y=eh.plt_array(error,100)
 
     print(right_rate)
-    plt.title("Predict in Linear Regression")
+    plt.title("Predict in polynomial Regression,dimension:3")
     plt.xlabel("error with real value")
     plt.ylabel("Percentage of total")
     plt.scatter(plt_x, plt_y)

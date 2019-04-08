@@ -3,17 +3,18 @@ import numpy as np
 from sklearn.linear_model import SGDRegressor as gsd
 from sklearn.preprocessing import MinMaxScaler
 
+
 def load_data(fileName):
     """
     import data from file data_2, return the dataMarix and labelMatrix
     :param fileName:
     :return:
     """
-    dataMatrix=[]
-    labelMatrix=[]
+    dataMatrix = []
+    labelMatrix = []
 
     # read data
-    no_need_feature=["EbayID","Price","SellerName","EndDay"]  # the feature do not need to push into dataMatrix
+    no_need_feature = ["EbayID", "Price", "SellerName", "EndDay"]  # the feature do not need to push into dataMatrix
     with open(fileName) as f:
         f_csv = csv.DictReader(f)
         # read label
@@ -21,7 +22,7 @@ def load_data(fileName):
         for row in f_csv:
             labelMatrix.append(float(row["Price"]))
 
-            row_data=[]
+            row_data = []
             for feature in row:
                 if feature not in no_need_feature:
                     row_data.append(float(row[feature]))
@@ -29,6 +30,7 @@ def load_data(fileName):
             dataMatrix.append(row_data)
 
     return dataMatrix, labelMatrix
+
 
 def feature_select(dataMatrix, labelMatrix):
     """
@@ -40,12 +42,13 @@ def feature_select(dataMatrix, labelMatrix):
     # normalize the data
     scaler = MinMaxScaler()
     scaler.fit(dataMatrix)
-    dataMatrix=scaler.transform(dataMatrix)
+    dataMatrix = scaler.transform(dataMatrix)
 
     # gsd based l1
-    clf=gsd(penalty="l1")
-    clf.fit(dataMatrix,labelMatrix)
+    clf = gsd(penalty="l1")
+    clf.fit(dataMatrix, labelMatrix)
     return clf.coef_
+
 
 def remove_feature(dataMatrix, weight):
     """
@@ -55,6 +58,6 @@ def remove_feature(dataMatrix, weight):
     :return:
     """
 
-    deleteIndices = np.where(weight==0)
+    deleteIndices = np.where(weight == 0)
     dataMatrix = np.delete(dataMatrix, deleteIndices, axis=1)
     return dataMatrix
