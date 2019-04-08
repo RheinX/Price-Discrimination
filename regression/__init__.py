@@ -59,19 +59,11 @@ def one_dimension_fitting():
     fit the curve which data is price of one user to one category item
     :return:
     """
-<<<<<<< HEAD
     error, right_rate=cf.polynomial_regression(3)
     plt_x,plt_y=eh.plt_array(error,100)
 
     print(right_rate)
     plt.title("Predict in polynomial Regression,dimension:3")
-=======
-    error, right_rate=cf.linear_regression()
-    plt_x,plt_y=eh.plt_array(error,100)
-
-    print(right_rate)
-    plt.title("Predict in Linear Regression")
->>>>>>> origin/master
     plt.xlabel("error with real value")
     plt.ylabel("Percentage of total")
     plt.scatter(plt_x, plt_y)

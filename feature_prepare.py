@@ -38,11 +38,11 @@ def get_data2_matrix(file_prefix):
 def get_user_item_log(file_prefix):
     """
     load the history data price of user
+
     :return:
     """
     user={}
     # loop the file
-
     name_lists=os.listdir(file_prefix)
     for file_name in name_lists:
         user_id=file_name.split('_')[0]

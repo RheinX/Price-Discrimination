@@ -37,7 +37,7 @@ def error_rate(predict, label, rate):
     return result, float(right_rate)/size
 
 
-def plt_array(data, rate, filter=True):
+def plt_array(data, rate=100, filter=True):
     """
     use filter to control data
     :param data:
