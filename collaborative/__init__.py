@@ -68,7 +68,7 @@ def filter_based_user(train_file_path, test_file_path):
         clf=BayesianRidge()
 
         # extend the data by SMOTE
-        train_data, train_label= smote.fill_matrix(train_data,train_label,300)
+        train_data, train_label= smote.fill_matrix(train_data,train_label,500)
 
         clf.fit(train_data,train_label)
         result=clf.predict(test_data)
