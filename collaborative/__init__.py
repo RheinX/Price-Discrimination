@@ -63,9 +63,9 @@ def filter_based_user(train_file_path, test_file_path):
 
         # regression
         # clf=SGDRegressor()
-        # clf=svm.SVR()
+        clf=svm.SVR()
         # clf=LassoLars()
-        clf=BayesianRidge()
+        # clf=BayesianRidge()
 
         # extend the data by SMOTE
         train_data, train_label= smote.fill_matrix(train_data,train_label,500)
