@@ -136,42 +136,56 @@ def clean_set(read_file_name, write_file_prefix, category_m=None, user_m=None, c
                 user[person_id][category]['log'] = []
             user[person_id][category]['log'].append(price)
 
-    # write the file
-    write_file_prefix = file_prefix + write_file_prefix
-    item_file = open(write_file_prefix + "item.txt", 'w')
-    # write item, sorted by avg price
-    # format: category, avg price, med price, history price(a list)
-    item_ordered = sorted(item_order.items(), key=lambda items: items[1], reverse=True)
-    for v, k in item_ordered:
-        item_file.write(str(v) + '\t' + str(k) + '\t' + str(item[v]['med']))
-        for p in item[v]['prices']:
-            item_file.write('\t' + str(p))
-        item_file.write('\n')
-    item_file.close()
-
-    # write history of user
-    # format: category, max price, avg price, med price, history price(a list)
-    user_file_prefix = write_file_prefix + "user/"
-    for id in user:
-        size = len(user[id])
-        user_name = str(id) + "_" + str(size) + ".txt"
-        user_file = open(user_file_prefix + user_name, 'w')
-        for category in user[id]:
-            user_file.write(
-                str(category) + '\t' + str(user[id][category]['price']) + '\t' + str(user[id][category]['avg']) + '\t')
-            user_file.write(str(user[id][category]['med']))
-            for p in user[id][category]['log']:
-                user_file.write('\t' + str(p))
-            user_file.write('\n')
-        user_file.close()
-
-    # record the size of user and item
-    user_item_file = open(write_file_prefix + "user_item.txt", 'w')
-    user_item_file.write(str(len(category_mapping)) + '\t' + str(len(user_mapping)))
-    user_item_file.close()
+    # # write the file
+    # write_file_prefix = file_prefix + write_file_prefix
+    # item_file = open(write_file_prefix + "item.txt", 'w')
+    # # write item, sorted by avg price
+    # # format: category, avg price, med price, history price(a list)
+    # item_ordered = sorted(item_order.items(), key=lambda items: items[1], reverse=True)
+    # for v, k in item_ordered:
+    #     item_file.write(str(v) + '\t' + str(k) + '\t' + str(item[v]['med']))
+    #     for p in item[v]['prices']:
+    #         item_file.write('\t' + str(p))
+    #     item_file.write('\n')
+    # item_file.close()
+    #
+    # # write history of user
+    # # format: category, max price, avg price, med price, history price(a list)
+    # user_file_prefix = write_file_prefix + "user/"
+    # for id in user:
+    #     size = len(user[id])
+    #     user_name = str(id) + "_" + str(size) + ".txt"
+    #     user_file = open(user_file_prefix + user_name, 'w')
+    #     for category in user[id]:
+    #         user_file.write(
+    #             str(category) + '\t' + str(user[id][category]['price']) + '\t' + str(user[id][category]['avg']) + '\t')
+    #         user_file.write(str(user[id][category]['med']))
+    #         for p in user[id][category]['log']:
+    #             user_file.write('\t' + str(p))
+    #         user_file.write('\n')
+    #     user_file.close()
+    #
+    # # record the size of user and item
+    # user_item_file = open(write_file_prefix + "user_item.txt", 'w')
+    # user_item_file.write(str(len(category_mapping)) + '\t' + str(len(user_mapping)))
+    # user_item_file.close()
 
     return category_mapping, user_mapping
 
+
+def write_mapping(file_path, file_name, mapping):
+    """
+    write the mapping id
+    :param file_path:
+    :param file_name:
+    :return:
+    """
+    # origin id, mapping id
+    f=open(file_path+file_name,'w')
+    for v in mapping:
+        f.write(str(v)+'\t'+str(mapping[v])+'\n')
+
+    f.close()
 
 if __name__ == '__main__':
     # clean_auction()
@@ -181,4 +195,6 @@ if __name__ == '__main__':
     test_write_file_prefix = "test_data_2/"
 
     category_mapping, user_mapping = clean_set(train_read_file_name, train_write_file_prefix)
-    clean_set(test_read_file_name, test_write_file_prefix, category_mapping, user_mapping, True)
+    write_mapping("../resources/data/clean_data_2/","user_mapping.txt",user_mapping)
+    write_mapping("../resources/data/clean_data_2/","item_mapping.txt",category_mapping)
+    #clean_set(test_read_file_name, test_write_file_prefix, category_mapping, user_mapping, True)
