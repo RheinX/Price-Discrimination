@@ -99,5 +99,75 @@ def add_label_matrix(lables, matrix, uid_indices, mapping):
     return new_matrix
 
 
+def similar_user_cluster():
+    """
+    cluster by similar user
+    :return:
+    """
+    cluster = []
+    collected_user = set()
+    collecting_user = set()
+    file_prefix = "resources/data/collaborative/"
+
+    users = get_similar_by_read_file(file_prefix + "0.txt")
+    collected_user.add(0)
+    for v in users:
+        collecting_user.add(v)
+
+    flag = np.zeros(13758)
+    flag[0] = 1
+
+    while True:
+        # find a cluster
+        while len(collecting_user) != 0:
+            another = set()
+            for v in collecting_user:
+                if v not in collected_user and flag[v]==0:
+                    flag[v] = 1
+                    collected_user.add(v)
+
+                    current_users = get_similar_by_read_file(file_prefix + str(v) + ".txt")
+                    for value in current_users:
+                        another.add(value)
+
+            collecting_user = another.copy()
+
+        cluster.append(collected_user)
+
+        rest = np.where(flag == 0)
+        rest=rest[0]
+        print(len(rest))
+        if len(rest) == 0:
+            break
+
+        collected_user.clear()
+        collecting_user.clear()
+        current_id = rest[0]
+        users = get_similar_by_read_file(file_prefix + str(current_id) + ".txt")
+        collected_user.add(current_id)
+        for v in users:
+            collecting_user.add(v)
+
+        flag[current_id] = 1
+
+    return len(cluster)
+
+
+def get_similar_by_read_file(file_name):
+    """
+    get similar users by read the file
+    :param file_name:
+    :return:
+    """
+    similar_user = []
+    f = open(file_name, 'r')
+    for lines in f.readlines():
+        id = int(lines.split('\t')[0])
+        similar_user.append(id)
+
+    f.close()
+    return similar_user
+
+
 if __name__ == '__main__':
-    item_cluster_show()
+    print(similar_user_cluster())

@@ -82,6 +82,7 @@ def one_dimension_fitting():
     plt.scatter(plt_x, plt_y)
     plt.show()
 
+
 if __name__ == '__main__':
     # regression predict by using all data with different features
     # multiple_feature_regression()
