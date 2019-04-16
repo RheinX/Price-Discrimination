@@ -29,6 +29,9 @@ def error_rate_sum(predict, label, threshold):
 
         result[offset] += 1
 
+    for v in result:
+        result[v] = float(result[v]) / size
+
     result_sort = sorted(result.items())
     error_plt={}
     error_plt[result_sort[0][0]]=result_sort[0][1]

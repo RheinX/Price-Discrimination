@@ -119,11 +119,11 @@ def one_dimension_fitting(pol_dem):
 
 
 if __name__ == '__main__':
-    # # regression predict by using all data with different features
-    # dataMatrix, labelMatrix, test_dataMatrix, test_labelMatrix\
-    #     =load_feature("../resources/data/TrainingSet.csv","../resources/data/TestSet.csv")
-    # plt_x_regression, plt_y_regression=\
-    #     multiple_feature_regression(dataMatrix, labelMatrix, test_dataMatrix, test_labelMatrix)
+    # regression predict by using all data with different features
+    dataMatrix, labelMatrix, test_dataMatrix, test_labelMatrix\
+        =load_feature("../resources/data/TrainingSet.csv","../resources/data/TestSet.csv")
+    plt_x_regression, plt_y_regression=\
+        multiple_feature_regression(dataMatrix, labelMatrix, test_dataMatrix, test_labelMatrix)
     # plt_x_cluster3,plt_y_cluster3=\
     #     multiple_feature_regression_cluster(dataMatrix, labelMatrix, test_dataMatrix, test_labelMatrix,3)
     # plt_x_cluster5, plt_y_cluster5 = \
@@ -132,32 +132,33 @@ if __name__ == '__main__':
     #     multiple_feature_regression_cluster(dataMatrix, labelMatrix, test_dataMatrix, test_labelMatrix, 10)
     # plt_x_cluster20, plt_y_cluster20 = \
     #     multiple_feature_regression_cluster(dataMatrix, labelMatrix, test_dataMatrix, test_labelMatrix, 20)
-    #
-    # plt.title("Predict in data feature and cluster")
-    # plt.xlabel("error rate")
-    # plt.ylabel("error number")
-    #
+
+    plt.title("Predict in data feature")
+    plt.xlabel("error rate")
+    plt.ylabel("error number")
+
+    plt.plot(plt_x_regression, plt_y_regression)
     # plt.plot(plt_x_regression,plt_y_regression,color="green",label="no cluster")
     # plt.plot(plt_x_cluster3, plt_y_cluster3, color="blue", label="window size:3")
     # plt.plot(plt_x_cluster5, plt_y_cluster5, color="red", label="window size:5")
     # plt.plot(plt_x_cluster10, plt_y_cluster10, color="skyblue", label="window size:10")
     # plt.plot(plt_x_cluster20, plt_y_cluster20, color="black", label="window size:20")
-    #
-    # plt.legend()
-    # plt.show()
-
-    # curve fit
-    plt_x_regression,plt_y_regression=one_dimension_fitting(1)
-    plt_x2, plt_y2 = one_dimension_fitting(2)
-    plt_x3, plt_y3 = one_dimension_fitting(3)
-
-    plt.title("Predict in curve fitting")
-    plt.xlabel("error rate")
-    plt.ylabel("error number")
-
-    plt.plot(plt_x_regression,plt_y_regression,color="blue",label="linear")
-    plt.plot(plt_x2, plt_y2, color="red", label="Binary polynomial")
-    plt.plot(plt_x3, plt_y3, color="green", label="Ternary polynomial")
 
     plt.legend()
     plt.show()
+
+    # # curve fit
+    # plt_x_regression,plt_y_regression=one_dimension_fitting(1)
+    # plt_x2, plt_y2 = one_dimension_fitting(2)
+    # plt_x3, plt_y3 = one_dimension_fitting(3)
+    #
+    # plt.title("Predict in curve fitting")
+    # plt.xlabel("error rate")
+    # plt.ylabel("error percent")
+    #
+    # plt.plot(plt_x_regression,plt_y_regression,color="blue",label="linear")
+    # plt.plot(plt_x2, plt_y2, color="red", label="Binary polynomial")
+    # plt.plot(plt_x3, plt_y3, color="green", label="Ternary polynomial")
+    #
+    # plt.legend()
+    # plt.show()

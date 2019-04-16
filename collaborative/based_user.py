@@ -139,7 +139,7 @@ def predict_based_formula(similarity, train_matrix, uid, iid):
     coefficient = np.array(coefficient)
     coefficient = coefficient / total_coefficient
 
-    avg_p = np.full(len(prices), avg_prices)
+    avg_p = np.full(len(prices), avg_prices*0.75)
 
     predict_price = avg_prices + sum(np.multiply(coefficient, avg_p - prices))
 
