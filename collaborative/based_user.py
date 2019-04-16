@@ -20,6 +20,7 @@ def matrix_handle(vector, matrix):
 
     return matrix_spare
 
+
 # todo: change the formula of similarity
 def get_similarity(vector, matrix, uid, num=100):
     """
@@ -153,52 +154,66 @@ def produce_data_to_train(uid, matrix, similarity):
     :param matrix:
     :return:
     """
-    label=[]
+    item_mapping = {}
+    user_mapping = {}
+
+    label = []
     simi_users = similarity[uid]
-    item_index=np.where(matrix[uid,:]!=0)[0]  # item id that this user(uid) aucte
-    train_data=np.zeros((len(item_index),len(simi_users)))
+    item_index = np.where(matrix[uid, :] != 0)[0]  # item id that this user(uid) aucte
+    train_data = np.zeros((len(item_index), len(simi_users)))
 
     # fill the matrix
 
     for iid in range(len(item_index)):
+        item_mapping[iid] = item_index[iid]
         i = 0
-        label.append(matrix[uid,item_index[iid]])
+        label.append(matrix[uid, item_index[iid]])
         for id in simi_users:
-            train_data[iid,i]=matrix[id,item_index[iid]]
-            i+=1
+            user_mapping[i] = id
+            train_data[iid, i] = matrix[id, item_index[iid]]
+            i += 1
 
-    return train_data, label
+    return train_data, label, item_mapping, user_mapping
 
-def fill_matrix(matrix,label):
+
+def fill_matrix(matrix, label, item_mapping, user_mapping,matrix_svd):
     """
     fill the element equal 0
     the principle of proximity, delete this row if all element is 0
     :param matrix:
     :return:
     """
-    delete_row=[]
-    m,n=matrix.shape
+
+    # # fill nearest element
+    # delete_row=[]
+    # m,n=matrix.shape
+    # for i in range(m):
+    #     vector=matrix[i,:]
+    #     d_vector=np.where(vector==0)[0]
+    #     if len(d_vector)==len(vector):
+    #         delete_row.append(i)
+    #         continue
+    #
+    #     p=0
+    #     while matrix[i,p]==0:
+    #         p+=1
+    #
+    #     current = matrix[i, p]
+    #     for j in range(n):
+    #         if matrix[i,j]==0:
+    #             matrix[i,j]=current
+    #         else:
+    #             current=matrix[i,j]
+    #
+    # # delete the row
+    # matrix=np.delete(matrix,delete_row,axis=0)
+    # label=np.delete(label,delete_row)
+
+    # # fill with svd
+    m, n = matrix.shape
     for i in range(m):
-        vector=matrix[i,:]
-        d_vector=np.where(vector==0)[0]
-        if len(d_vector)==len(vector):
-            delete_row.append(i)
-            continue
-
-        p=0
-        while matrix[i,p]==0:
-            p+=1
-
-        current = matrix[i, p]
         for j in range(n):
             if matrix[i,j]==0:
-                matrix[i,j]=current
-            else:
-                current=matrix[i,j]
-
-    # delete the row
-    matrix=np.delete(matrix,delete_row,axis=0)
-    label=np.delete(label,delete_row)
+                matrix[i,j]=matrix_svd[user_mapping[j],item_mapping[i]]
 
     return matrix, label
-

@@ -42,11 +42,11 @@ def feature_select(dataMatrix, labelMatrix):
     # normalize the data
     scaler = MinMaxScaler()
     scaler.fit(dataMatrix)
-    dataMatrix2 = scaler.transform(dataMatrix)
+    dataMatrix = scaler.transform(dataMatrix)
 
     # gsd based l1
-    clf = gsd(penalty="l1")
-    clf.fit(dataMatrix2, labelMatrix)
+    clf = gsd(penalty="l2")
+    clf.fit(dataMatrix, labelMatrix)
     return clf.coef_
 
 

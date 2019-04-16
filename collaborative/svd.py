@@ -18,9 +18,9 @@ def save_matrix(file_path, name, matirx):
     for i in range(m):
         for j in range(n):
             if 0 == j:
-                f.write(str(matirx[i, j]))
+                f.write(str(abs(matirx[i, j])))
             else:
-                f.write('\t' + str(matirx[i, j]))
+                f.write('\t' + str(abs(matirx[i, j])))
 
         f.write('\n')
     f.close()
@@ -109,15 +109,15 @@ def nor_tailor_matrix(matrix):
 if __name__ == '__main__':
     # 裁剪过
     # D = np.array([[5, 5, 0, 5], [5, 0, 3, 4], [3, 4, 0, 3], [0, 0, 5, 3], [5, 4, 4, 5], [5, 4, 5, 5]])
-    D = fp.get_data2_matrix("../resources/data/clean_data_2/")
-    D = D[0:200, :]
+    D = fp.get_data2_matrix("../resources/data/test_data_2/")
+    # D = D[0:200, :]
 
     m, n = D.shape
     U, S, V = cal_svd_matrix(D)
     U, S, V = tailor_matrix(U, S, V, 25)
     NB = comb_matrix(U, S, V)
 
-    save_matrix("../resources/data/svd/","nb",NB)
+    save_matrix("../resources/data/svd/","nb-test",NB)
     # 绝对值
     # print(np.abs(NB))
     predict = []
@@ -132,7 +132,7 @@ if __name__ == '__main__':
     print(rate)
     # 未裁剪过
     B = nor_tailor_matrix(D)
-    save_matrix("../resources/data/svd/", "b", B)
+    save_matrix("../resources/data/svd/", "b-test", B)
     predict = []
     label = []
     for i in range(m):

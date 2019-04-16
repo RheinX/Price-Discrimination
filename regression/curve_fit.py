@@ -83,7 +83,7 @@ def polynomial_regression(degree):
                 label.append(test_matrix[uid, iid])
                 pre_data.append(user_predict[str(uid)][str(iid)][0])
 
-    result = eh.error_rate(pre_data, label, 0.3)
+    result = eh.error_rate_sum(pre_data, label, 0.3)
     return result
 
 

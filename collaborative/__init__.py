@@ -17,21 +17,22 @@ def filter_based_user(train_file_path, test_file_path):
     :param test_file:
     :return:
     """
-    similarity_path="../resources/data/collaborative/"
+    similarity_path = "../resources/data/collaborative/"
     # write similarity user files
     # bu.get_similarity_users(train_file_path,similarity_path)
 
     # read the matrix of similarity
-    similarity=bu.read_similarity(similarity_path)
+    similarity = bu.read_similarity(similarity_path)
 
     # get the train and test matrix
-    train_matrix=fp.get_data2_matrix(train_file_path)
+    train_matrix = fp.get_data2_matrix(train_file_path)
+    test_matrix = fp.get_data2_matrix(test_file_path)
 
-    test_matrix=fp.get_data2_matrix(test_file_path)
+    # train_matrix_svd=fp.get_svd_matrix("../resources/data/svd/b.txt")
 
-    label=[]
-    predict=[]
-    m,n=test_matrix.shape
+    label = []
+    predict = []
+    m, n = test_matrix.shape
 
     # # this method predict the price by the formula
     # for uid in range(m):
@@ -45,7 +46,7 @@ def filter_based_user(train_file_path, test_file_path):
 
     # # regression
     for uid in range(m):
-        train_data,train_label=bu.produce_data_to_train(uid,train_matrix,similarity)
+        train_data, train_label = bu.produce_data_to_train(uid, train_matrix, similarity)
 
         # lower the true rate,fuck!
         # # normalize
@@ -53,25 +54,25 @@ def filter_based_user(train_file_path, test_file_path):
         # scaler.fit(train_data)
         # train_data = scaler.transform(train_data)
 
-        test_data,test_label=bu.produce_data_to_train(uid,test_matrix,similarity)
+        test_data, test_label = bu.produce_data_to_train(uid, test_matrix, similarity)
 
         # fill the test_data
-        test_data,test_label=bu.fill_matrix(test_data,test_label)
+        test_data, test_label = bu.fill_matrix(test_data, test_label)
 
-        if len(test_data)==0:
+        if len(test_data) == 0:
             continue
 
         # regression
         # clf=SGDRegressor()
-        clf=svm.SVR()
+        clf = svm.SVR()
         # clf=LassoLars()
         # clf=BayesianRidge()
 
-        # extend the data by SMOTE
-        train_data, train_label= smote.fill_matrix(train_data,train_label,500)
+        # # extend the data by SMOTE
+        # train_data, train_label = smote.fill_matrix(train_data, train_label, 500)
 
-        clf.fit(train_data,train_label)
-        result=clf.predict(test_data)
+        clf.fit(train_data, train_label)
+        result = clf.predict(test_data)
 
         # if len(test_label)!=len(result):
         #     print("fuck")
@@ -82,8 +83,8 @@ def filter_based_user(train_file_path, test_file_path):
         label.extend(test_label)
         predict.extend(result)
 
-    error,rate=eh.error_rate(predict,label,0.1)
-    plt_x,plt_y=eh.plt_array(error)
+    error, rate = eh.error_rate(predict, label, 0.1)
+    plt_x, plt_y = eh.plt_array(error)
 
     print(rate)
     # plt.title("Predict in SVM regression")
@@ -93,7 +94,94 @@ def filter_based_user(train_file_path, test_file_path):
     # plt.show()
 
 
+def filter_based_user(train_file_path, test_file_path):
+    """
+    algorithm like collaborative filter based on users
+    :param train_file:
+    :param test_file:
+    :return:
+    """
+    similarity_path = "../resources/data/collaborative/"
+    # write similarity user files
+    # bu.get_similarity_users(train_file_path,similarity_path)
+
+    # read the matrix of similarity
+    similarity = bu.read_similarity(similarity_path)
+
+    # get the train and test matrix
+    train_matrix = fp.get_data2_matrix(train_file_path)
+    test_matrix = fp.get_data2_matrix(test_file_path)
+
+    train_matrix_svd=fp.get_svd_matrix("../resources/data/svd/nb.txt")
+    test_matrix_svd=fp.get_svd_matrix("../resources/data/svd/nb-test.txt")
+
+    label = []
+    predict = []
+    m, n = test_matrix.shape
+
+    # # this method predict the price by the formula
+    # for uid in range(m):
+    #     for iid in range(n):
+    #         if test_matrix[uid,iid]!=0:
+    #             prices=bu.predict_based_formula(similarity,train_matrix,uid,iid)
+    #
+    #             if 0!=prices:
+    #                 label.append(test_matrix[uid,iid])
+    #                 predict.append(prices)
+
+    # # regression
+    for uid in range(m):
+        train_data, train_label,train_item_mapping, train_user_mapping = bu.produce_data_to_train(uid, train_matrix, similarity)
+
+        # lower the true rate,fuck!
+        # # normalize
+        # scaler = MinMaxScaler()
+        # scaler.fit(train_data)
+        # train_data = scaler.transform(train_data)
+
+        test_data, test_label, test_item_mapping, test_user_mapping = bu.produce_data_to_train(uid, test_matrix, similarity)
+
+        # fill the test_data
+        train_data, train_label = bu.fill_matrix(train_data, train_label, train_item_mapping, train_user_mapping,train_matrix_svd)
+        test_data, test_label = bu.fill_matrix(test_data, test_label,test_item_mapping,test_user_mapping,test_matrix_svd)
+
+        if len(test_data) == 0:
+            continue
+
+        # regression
+        # clf=SGDRegressor()
+        clf = svm.SVR()
+        # clf=LassoLars()
+        # clf=BayesianRidge()
+
+        # # extend the data by SMOTE
+        # train_data, train_label = smote.fill_matrix(train_data, train_label, 500)
+
+        clf.fit(train_data, train_label)
+        result = clf.predict(test_data)
+
+        # if len(test_label)!=len(result):
+        #     print("fuck")
+        #     print(len(test_label))
+        #     print(len(result))
+        #     print(len(test_data))
+        #     print()
+        label.extend(test_label)
+        predict.extend(result)
+
+    #error, rate = eh.error_rate(predict, label, 0.1)
+    error=eh.error_rate_sum(predict,label,0.3)
+    plt_x, plt_y = eh.plt_sum(error)
+
+    #print(rate)
+    plt.title("PFCF model")
+    plt.xlabel("error rate")
+    plt.ylabel("number of error")
+    plt.plot(plt_x, plt_y)
+    plt.show()
+
+
 if __name__ == '__main__':
-    train_file_path="../resources/data/clean_data_2/"
-    test_file_path="../resources/data/test_data_2/"
-    filter_based_user(train_file_path,test_file_path)
+    train_file_path = "../resources/data/clean_data_2/"
+    test_file_path = "../resources/data/test_data_2/"
+    filter_based_user(train_file_path, test_file_path)

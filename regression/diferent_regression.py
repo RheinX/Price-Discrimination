@@ -50,5 +50,6 @@ def BayesianRidge_regression(dataMatrix, labelMatrix, test_dataMatirx, test_labe
     clf.fit(dataMatrix, labelMatrix)
     predict = clf.predict(test_dataMatirx)
 
-    error_rate = eh.error_rate(predict, test_labelMatrix,0.1)
+    #error_rate = eh.error_rate(predict, test_labelMatrix,0.1)
+    error_rate=eh.error_rate_sum(predict,test_labelMatrix, 0.3)
     return error_rate

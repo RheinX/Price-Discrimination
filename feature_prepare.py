@@ -99,3 +99,17 @@ def get_mapping(file_name):
         mapping[id] = uid
 
     return mapping
+
+
+def get_svd_matrix(file_name):
+    matrix = []
+    f = open(file_name, 'r')
+
+    for lines in f.readlines():
+        lines = lines.split('\t')
+        lines = [float(x) for x in lines]
+        matrix.append(lines)
+
+    f.close()
+
+    return np.array(matrix)
